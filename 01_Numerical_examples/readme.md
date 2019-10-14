@@ -1,2 +1,2 @@
-# 01_Numerical examples
-Examples of continuous and discrete adjoint sensitivities for numerical groundwater flow solutions
+# 01_Numerical_examples
+Examples of adjoint sensitivities calculated using continuous and discrete approaches for numerical groundwater flow models

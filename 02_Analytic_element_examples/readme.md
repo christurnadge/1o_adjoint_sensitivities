@@ -1,2 +1,2 @@
 # 02_Analytic_element_examples
-Examples of continuous adjoint sensitivities using analytic element groundwater flow models
+Examples of adjoint sensitivities calculated using the continuous approach for analytic element groundwater flow models
