@@ -3,7 +3,7 @@ Examples of adjoint sensitivities calculated using the continuous approach for n
 
 Launch interactive versions of the following Jupyter Notebooks using Binder:
 
-- 01_dh_dK_SS.ipynb: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/blob/master/01_Numerical_examples/01_Continuous_approach/01_dh_dK_SS.ipynb)
+- 01_dh_dK_SS.ipynb: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F01_dh_dK_SS.ipynb)
 
 - 02_dh_dBC1h_SS.ipynb: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/blob/master/01_Numerical_examples/01_Continuous_approach/02_dh_dBC1h_SS.ipynb)
 
