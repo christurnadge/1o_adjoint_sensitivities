@@ -21,7 +21,7 @@ Launch interactive versions of the following Jupyter Notebooks using Binder:
 - 03_dh_dBC2Q_TR.ipynb: Sensitivity of hydraulic head to Neumann boundary flux (transient flow conditions)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F03_dh_dBC2Q_TR.ipynb)
 
-- 04_dh_dQw_SS.ipynb: Sensitivity of hydraulic head to a source/sink term (steady state flow conditions)<cr>
+- 04_dh_dQw_SS.ipynb: Sensitivity of hydraulic head to a source/sink term (steady state flow conditions)\cr
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F04_dh_dQw_SS.ipynb)
 
 - 04_dh_dQw_TR.ipynb: Sensitivity of hydraulic head to a source/sink term (transient flow conditions)
