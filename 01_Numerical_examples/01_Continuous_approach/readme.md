@@ -30,7 +30,7 @@ Launch interactive versions of the following Jupyter Notebooks using Binder:
 - **05_dh_dQr_SS.ipynb:** Sensitivity of hydraulic head to a uniformly distributed flux (steady state flow conditions)\
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F05_dh_dQr_SS.ipynb)
 
-- **05_dh_dQr_TR.ipynb: Sensitivity of hydraulic head to a uniformly distributed flux (transient flow conditions)\
+- **05_dh_dQr_TR.ipynb:** Sensitivity of hydraulic head to a uniformly distributed flux (transient flow conditions)\
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F05_dh_dQr_TR.ipynb)
 
 - **06_dh_dBC3h_SS.ipynb:** Sensitivity of hydraulic head to Robin boundary head (steady state flow conditions)\
