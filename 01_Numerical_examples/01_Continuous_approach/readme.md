@@ -1,5 +1,6 @@
 # 01_Continuous_approach
-Examples of adjoint sensitivities calculated using the continuous approach for numerical groundwater flow models
+Examples of adjoint sensitivities calculated using the continuous approach for numerical groundwater flow models are presented.\
+For most examples, both steady state and transient versions are presented, as the loading terms used in adjoint solutions are defined differently.
 
 Launch interactive versions of the following Jupyter Notebooks using Binder:
 
