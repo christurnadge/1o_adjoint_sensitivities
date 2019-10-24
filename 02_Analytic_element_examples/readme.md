@@ -21,12 +21,12 @@ Sensitivity of hydraulic head to source/sink term flux (steady state flow condit
 
 - **05_dh_dQr_SS.ipynb:**
 Sensitivity of hydraulic head to uniform distributed flux (steady state flow conditions)\
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=02_Analytic_element_examples%2F03_dh_dQr_SS.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=02_Analytic_element_examples%2F05_dh_dQr_SS.ipynb)
 
 - **06_dh_dBC3h_SS.ipynb:**
 Sensitivity of hydraulic head to Robin boundary head (steady state flow conditions)\
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=02_Analytic_element_examples%2F03_dh_dBC3h_SS.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=02_Analytic_element_examples%2F06_dh_dBC3h_SS.ipynb)
 
 - **07_dh_dBC3c_SS.ipynb:**
 Sensitivity of hydraulic head to Robin boundary conductance (steady state flow conditions)\
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=02_Analytic_element_examples%2F03_dh_dBC3c_SS.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=02_Analytic_element_examples%2F07_dh_dBC3c_SS.ipynb)
