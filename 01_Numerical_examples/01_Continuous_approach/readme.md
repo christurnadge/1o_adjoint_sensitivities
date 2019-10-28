@@ -4,8 +4,8 @@ Examples of adjoint sensitivities calculated using the continuous approach for n
 For most examples, both steady state and transient versions are presented, as the loading terms used in adjoint solutions are defined differently.
 
 Launch interactive versions of the following Jupyter Notebooks using Binder:
-\
-\
+
+
 ### Sensitivities of modelled hydraulic head outputs to various model parameters: 
 
 | Filename | Sensitivity to | Flow condition | Link |
@@ -25,15 +25,15 @@ Launch interactive versions of the following Jupyter Notebooks using Binder:
 | 07_dh_dBC3c_SS.ipynb | Robin boundary conductance | Steady state | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F07_dh_dBC3c_SS.ipynb) |
 | 07_dh_dBC3c_TR.ipynb | Robin boundary conductance | Transient | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F07_dh_dBC3c_TR.ipynb) |
 | 08_dh_dSs_TR.ipynb | Robin boundary conductance | Transient | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F08_dh_dSs_TR.ipynb) |
-| 09_dh_dICh_TR.ipynb | | Uniform  initial condition head | Transient | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F09_dh_dICh_TR.ipynb) |
+| 09_dh_dICh_TR.ipynb | Uniform  initial condition head | Transient | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F09_dh_dICh_TR.ipynb) |
 | 21_dh_dK_Thiem.ipynb | Uniform hydraulic conductivity | Thiem | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F21_dh_dK_Thiem.ipynb) |
 | 22_dh_dK_TR.ipynb | Uniform hydraulic conductivity | Theis | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F22_dh_dK_Theis.ipynb) |
 \
 \
-## Sensitivities of modelled velocity magnitude outputs to various model parameters: 
+### Sensitivities of modelled velocity magnitude outputs to various model parameters: 
 
-| Filename           | Model output   | Sensitivity to                 | Flow condition | Link          |
-| :----------------- | :------------- | :----------------------------- | :------------- | :------------ |
+| Filename | Sensitivity to | Flow condition | Link |
+| :------- | :------------- | :------------- | :--- |
 | 01_dq_dK_SS.ipynb | Uniform hydraulic conductivity | Steady state | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F01_dq_dK_SS.ipynb) |
 | 01_dq_dK_TR.ipynb | Uniform hydraulic conductivity | Transient | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F01_dq_dK_TR.ipynb) |
 | 02_dq_dBC1h_SS.ipynb | Dirichlet boundary head | Steady state | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F02_dq_dBC1h_SS.ipynb) |
