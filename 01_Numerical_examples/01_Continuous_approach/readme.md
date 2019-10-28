@@ -5,78 +5,80 @@ For most examples, both steady state and transient versions are presented, as th
 
 Launch interactive versions of the following Jupyter Notebooks using Binder:
 
+## Sensitivities of modelled hydraulic head outputs to various model parameters: 
+
 | Filename           | Model output   | Sensitivity to                 | Flow condition | Link          |
 | :----------------- | :------------- | :----------------------------- | :------------- | :------------ |
-| 01_dh_dK_SS.ipynb  | Hydraulic head | Uniform hydraulic conductivity | Steady state   | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F01_dh_dK_SS.ipynb)  |
+| 01_dh_dK_SS.ipynb | Hydraulic head | Uniform hydraulic conductivity | Steady state | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F01_dh_dK_SS.ipynb) |
 
-- **01_dh_dK_SS.ipynb:**
-Sensitivity of hydraulic head to uniform hydraulic conductivity (steady state flow conditions)\
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F01_dh_dK_SS.ipynb)
+| 01_dh_dK_TR.ipynb | Hydraulic head | Uniform hydraulic conductivity | Transient | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F01_dh_dK_TR.ipynb) |
 
-- **01_dh_dK_TR.ipynb:**
-Sensitivity of hydraulic head to uniform hydraulic conductivity (transient flow conditions)\
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F01_dh_dK_TR.ipynb)
+| 02_dh_dBC1h_SS.ipynb | Hydraulic head | Dirichlet boundary head | Steady state | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F02_dh_dBC1h_SS.ipynb) |
 
-- **02_dh_dBC1h_SS.ipynb:**
-Sensitivity of hydraulic head to Dirichlet boundary head (steady state flow conditions)\
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F02_dh_dBC1h_SS.ipynb)
+| 02_dh_dBC1h_TR.ipynb | Hydraulic head | Dirichlet boundary head | Transient | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F02_dh_dBC1h_TR.ipynb) |
 
-- **02_dh_dBC1h_TR.ipynb:**
-Sensitivity of hydraulic head to Dirichlet boundary head (transient flow conditions)\
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F02_dh_dBC1h_TR.ipynb)
+| 03_dh_dBC2Q_SS.ipynb | Hydraulic head | Neumann boundary flux | Steady state | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F03_dh_dBC2Q_SS.ipynb) |
 
-- **03_dh_dBC2Q_SS.ipynb:**
-Sensitivity of hydraulic head to Neumann boundary flux (steady state flow conditions)\
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F03_dh_dBC2Q_SS.ipynb)
+| 03_dh_dBC2Q_TR.ipynb | Hydraulic head | Neumann boundary flux | Transient | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F03_dh_dBC2Q_TR.ipynb) |
 
-- **03_dh_dBC2Q_TR.ipynb:**
-Sensitivity of hydraulic head to Neumann boundary flux (transient flow conditions)\
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F03_dh_dBC2Q_TR.ipynb)
+| 04_dh_dQw_SS.ipynb | Hydraulic head | Source/sink term | Steady state | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F04_dh_dQw_SS.ipynb) |
 
-- **04_dh_dQw_SS.ipynb:**
-Sensitivity of hydraulic head to a source/sink term (steady state flow conditions)\
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F04_dh_dQw_SS.ipynb)
+| 04_dh_dQw_TR.ipynb | Hydraulic head | Source/sink term | Transient | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F04_dh_dQw_TR.ipynb) |
 
-- **04_dh_dQw_TR.ipynb:**
-Sensitivity of hydraulic head to a source/sink term (transient flow conditions)\
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F04_dh_dQw_TR.ipynb)
+| 05_dh_dQr_SS.ipynb | Hydraulic head | Uniformly distributed flux | Steady state | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F05_dh_dQr_SS.ipynb) |
 
-- **05_dh_dQr_SS.ipynb:**
-Sensitivity of hydraulic head to a uniformly distributed flux (steady state flow conditions)\
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F05_dh_dQr_SS.ipynb)
+| 05_dh_dQr_TR.ipynb | Hydraulic head | Uniformly distributed flux | Transient | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F05_dh_dQr_TR.ipynb) |
 
-- **05_dh_dQr_TR.ipynb:**
-Sensitivity of hydraulic head to a uniformly distributed flux (transient flow conditions)\
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F05_dh_dQr_TR.ipynb)
+| 06_dh_dBC3h_SS.ipynb | Hydraulic head | Robin boundary head | Steady state | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F06_dh_dBC3h_SS.ipynb) |
 
-- **06_dh_dBC3h_SS.ipynb:**
-Sensitivity of hydraulic head to Robin boundary head (steady state flow conditions)\
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F06_dh_dBC3h_SS.ipynb)
+| 06_dh_dBC3h_TR.ipynb | Hydraulic head | Robin boundary head | Transient | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F06_dh_dBC3h_TR.ipynb) |
 
-- **06_dh_dBC3h_TR.ipynb:**
-Sensitivity of hydraulic head to Robin boundary head (transient flow conditions)\
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F06_dh_dBC3h_TR.ipynb)
+| 07_dh_dBC3c_SS.ipynb | Hydraulic head | Robin boundary conductance | Steady state | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F07_dh_dBC3c_SS.ipynb) |
 
-- **07_dh_dBC3c_SS.ipynb:**
-Sensitivity of hydraulic head to Robin boundary conductance (steady state flow conditions)\
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F07_dh_dBC3c_SS.ipynb)
+| 07_dh_dBC3c_TR.ipynb | Hydraulic head | Robin boundary conductance | Transient | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F07_dh_dBC3c_TR.ipynb) |
 
-- **07_dh_dBC3c_TR.ipynb:**
-Sensitivity of hydraulic head to Robin boundary conductance (transient flow conditions)\
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F07_dh_dBC3c_TR.ipynb)
+| 08_dh_dSs_TR.ipynb | Hydraulic head | Robin boundary conductance | Transient | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F08_dh_dSs_TR.ipynb) |
 
-- **08_dh_dSs_TR.ipynb:**
-Sensitivity of hydraulic head to uniform specific storage (transient flow conditions)\
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F08_dh_dSs_TR.ipynb)
+| 09_dh_dICh_TR.ipynb | Hydraulic head | Uniform  initial condition head | Transient | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F09_dh_dICh_TR.ipynb) |
 
-- **09_dh_dICh_TR.ipynb:**
-Sensitivity of hydraulic head to uniform  initial condition head (transient flow conditions)\
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F09_dh_dICh_TR.ipynb)
+| 21_dh_dK_Thiem.ipynb | Hydraulic head | Uniform hydraulic conductivity | Thiem | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F21_dh_dK_Thiem.ipynb) |
 
-- **11_dh_dK_Thiem.ipynb:**
-Sensitivity of hydraulic head to uniform hydraulic conductivity (Thiem solution conditions)\
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F11_dh_dK_Thiem.ipynb)
+| 22_dh_dK_TR.ipynb | Hydraulic head | Uniform hydraulic conductivity | Theis | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F22_dh_dK_Theis.ipynb) |
 
-- **12_dh_dK_Theis.ipynb:**
-Sensitivity of hydraulic head to uniform hydraulic conductivity (Theis solution conditions)\
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F12_dh_dK_Theis.ipynb)
+
+## Sensitivities of modelled velocity magnitude outputs to various model parameters: 
+
+| Filename           | Model output   | Sensitivity to                 | Flow condition | Link          |
+| :----------------- | :------------- | :----------------------------- | :------------- | :------------ |
+
+| 01_dq_dK_SS.ipynb | Velocity magnitude | Uniform hydraulic conductivity | Steady state | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F01_dq_dK_SS.ipynb) |
+
+| 01_dq_dK_TR.ipynb | Velocity magnitude | Uniform hydraulic conductivity | Transient | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F01_dq_dK_TR.ipynb) |
+
+| 02_dq_dBC1h_SS.ipynb | Velocity magnitude | Dirichlet boundary head | Steady state | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F02_dq_dBC1h_SS.ipynb) |
+
+| 02_dq_dBC1h_TR.ipynb | Velocity magnitude | Dirichlet boundary head | Transient | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F02_dq_dBC1h_TR.ipynb) |
+
+| 03_dq_dBC2Q_SS.ipynb | Velocity magnitude | Neumann boundary flux | Steady state | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F03_dq_dBC2Q_SS.ipynb) |
+
+| 03_dq_dBC2Q_TR.ipynb | Velocity magnitude | Neumann boundary flux | Transient | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F03_dq_dBC2Q_TR.ipynb) |
+
+| 04_dq_dQw_SS.ipynb | Velocity magnitude | Source/sink term | Steady state | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F04_dq_dQw_SS.ipynb) |
+
+| 04_dq_dQw_TR.ipynb | Velocity magnitude | Source/sink term | Transient | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F04_dq_dQw_TR.ipynb) |
+
+| 05_dq_dQr_SS.ipynb | Velocity magnitude | Uniformly distributed flux | Steady state | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F05_dq_dQr_SS.ipynb) |
+
+| 05_dq_dQr_TR.ipynb | Velocity magnitude | Uniformly distributed flux | Transient | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F05_dq_dQr_TR.ipynb) |
+
+| 06_dq_dBC3h_SS.ipynb | Velocity magnitude | Robin boundary head | Steady state | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F06_dq_dBC3h_SS.ipynb) |
+
+| 06_dq_dBC3h_TR.ipynb | Velocity magnitude | Robin boundary head | Transient | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F06_dq_dBC3h_TR.ipynb) |
+
+| 07_dq_dBC3c_SS.ipynb | Velocity magnitude | Robin boundary conductance | Steady state | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F07_dq_dBC3c_SS.ipynb) |
+
+| 07_dq_dBC3c_TR.ipynb | Velocity magnitude | Robin boundary conductance | Transient | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F07_dq_dBC3c_TR.ipynb) |
+
+| 08_dq_dSs_TR.ipynb | Velocity magnitude | Robin boundary conductance | Transient | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F08_dq_dSs_TR.ipynb) |
+
+| 09_dq_dICh_TR.ipynb | Velocity magnitude | Uniform  initial condition head | Transient | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F09_dq_dICh_TR.ipynb) |
