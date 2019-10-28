@@ -7,7 +7,7 @@ Launch interactive versions of the following Jupyter Notebooks using Binder:
 
 | Filename           | Description                                                      | Flow condition | Link          |
 | ------------------ | ---------------------------------------------------------------- | -------------- | ------------- |
-| 01_dh_dK_SS.ipynb  | Sensitivity of hydraulic head to uniform hydraulic conductivity  | Steady state   | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F01_dh_dK_SS.ipynb)  |
+| 01_dh_dK_SS.ipynb  | Sensitivity of hydraulic head\to uniform hydraulic conductivity  | Steady state   | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F01_dh_dK_SS.ipynb)  |
 
 - **01_dh_dK_SS.ipynb:**
 Sensitivity of hydraulic head to uniform hydraulic conductivity (steady state flow conditions)\
