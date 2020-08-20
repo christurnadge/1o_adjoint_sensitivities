@@ -57,4 +57,4 @@ Launch interactive versions of the following Jupyter Notebooks using Binder:
 | Filename | Sensitivity to | Flow condition | Link |
 | :------- | :------------- | :------------- | :--- |
 | 21_dh_dK_Thiem.ipynb | Uniform hydraulic conductivity | Thiem | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F21_dh_dK_Thiem.ipynb) |
-| 22_dh_dK_TR.ipynb | Uniform hydraulic conductivity | Theis | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F22_dh_dK_Theis.ipynb) |
+| 22_dh_dK_Theis.ipynb | Uniform hydraulic conductivity | Theis | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/christurnadge/03_First_order_adjoint_sensitivity/master/?filepath=01_Numerical_examples%2F01_Continuous_approach%2F22_dh_dK_Theis.ipynb) |
